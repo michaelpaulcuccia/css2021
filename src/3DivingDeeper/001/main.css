@@ -13,7 +13,26 @@ body {
     background-color: #2ddf5c;
     /*top-bottom, left-right*/
     padding: 8px 16px;
-    width: 100%; /*Not Necessary, Block Level*/
+}
+
+/* Combinator: Direct Child Selected */
+.main-header > div {
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    /*42px is content size of first div*/
+    width: calc(100% - 42px)
+}
+
+.main-nav__items {
+    /* Remove All Inherited Styles */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*Set Width*/
 }
 
 /*Display*/
@@ -23,6 +42,7 @@ body {
 }
 
 /* stays within <li> but creates a new line*/
+/*remove display: inline-block*/
 /*
 .main-nav__item-new {
     display: block;
