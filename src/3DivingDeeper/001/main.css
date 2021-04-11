@@ -1,0 +1,47 @@
+/* Set Box-Sizing Universal Because This Gets Overwritten At Block Level */
+* {
+    box-sizing: border-box;
+}
+
+/* Don't User "*" */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.main-header {
+    background-color: #2ddf5c;
+    /*top-bottom, left-right*/
+    padding: 8px 16px;
+    width: 100%; /*Not Necessary, Block Level*/
+}
+
+/*Display*/
+/*The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex.*/
+.main-nav__item {
+    display: inline-block;
+}
+
+/* stays within <li> but creates a new line*/
+/*
+.main-nav__item-new {
+    display: block;
+}
+*/
+
+#product-overview {
+    background: #ff1b68;
+    width: 100%; /*Not Necessary, Block Level*/
+    height: 528px;
+    padding: 10px;   
+}
+
+.section-title {
+    color: #2ddf5c;   
+}
+
+/*combinator*/
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
