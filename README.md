@@ -1,16 +1,15 @@
 # css2021
 
-CSS - The Complete Guide 2021 (incl. Flexbox, Grid & Sass) by Academind
+CSS - including Flexbox, Grid & Sass
 
+- HTML5 Semantic Layout
 - Positioning
 - Backgrounds and Images
 - Dimensions, Units, and Sizes
 - JavaScript and CSS
-- Responsiveness
-- Styling Forms
-- Text and Fonts
+- Responsive Design With Media Queries
+- CSS Units - rem, em, vh, vw, etc
 - Flexbox
 - CSS Grid
-- Transformations
-- Transitions and Animations
-- Sass
+- Animation with Keyframes & Transitions
+- SS Variables
