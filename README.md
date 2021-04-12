@@ -1,15 +1,27 @@
 # css2021
 
-CSS - including Flexbox, Grid & Sass
+- BASICS
 
-- HTML5 Semantic Layout
-- Positioning
-- Backgrounds and Images
-- Dimensions, Units, and Sizes
-- JavaScript and CSS
-- Responsive Design With Media Queries
-- CSS Units - rem, em, vh, vw, etc
-- Flexbox
-- CSS Grid
-- Animation with Keyframes & Transitions
-- SS Variables
+* Selectors
+* Fonts, Colors
+* Backgrounds, Borders
+* Box Model / Margin & Padding
+* Floating & Alignment
+* Display Property
+* Link and Button Styling
+* Creating Menus
+* Positioning
+* Form Styling
+* Dev Tools
+
+- RESPONSIVE LAYOUTS
+
+* Media Queries
+* Em & Rem
+* Vh & Vw
+
+- FLEXBOX
+
+- ADVANCED CONCEPTS - SELECTORS, ANIMATORS, & MORE
+
+- CSS GRID

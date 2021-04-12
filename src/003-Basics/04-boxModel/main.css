@@ -1,0 +1,19 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background: #f4f4f4;
+    border: 2px #777 solid;
+    width: 500px;
+    /* Top-Bottom, Left-Right */
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+
+.box h3 {
+    padding-bottom: 5px;
+}
