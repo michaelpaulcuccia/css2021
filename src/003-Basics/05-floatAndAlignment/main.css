@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
+/* Centering Content */
+.container {
+    max-width: 960px;
+    /* moves to middle */
+    margin: auto;
+}
+
+.box {
+    background: #f4f4f4;
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    /* Edges Even */
+    text-align: justify;
+}
+
+/* Float */
+/* Must use box-sizing: border-box; */
+/* Must have a clear */
+
+#box-2 {
+    float: left;
+    /* 2% Gap */
+    width: 68%;
+}
+
+#box-3 {
+    float: right;
+    width: 30%;
+}
+
+/* utility class for 'clearing' */
+.clr {
+    clear: both;
+}

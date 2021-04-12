@@ -1,27 +1,37 @@
 # css2021
 
-- BASICS
+> BASICS
 
-* Selectors
-* Fonts, Colors
-* Backgrounds, Borders
-* Box Model / Margin & Padding
-* Floating & Alignment
-* Display Property
-* Link and Button Styling
-* Creating Menus
-* Positioning
-* Form Styling
-* Dev Tools
+- Selectors
+- Fonts, Colors
+- Backgrounds, Borders
+- Box Model / Margin & Padding
+- Floating & Alignment
+- Display Property
+- Link and Button Styling
+- Creating Menus
+- Positioning
+- Form Styling
+- Dev Tools
 
-- RESPONSIVE LAYOUTS
+> RESPONSIVE LAYOUTS
 
-* Media Queries
-* Em & Rem
-* Vh & Vw
+- Media Queries
+- Em & Rem
+- Vh & Vw
 
-- FLEXBOX
+> FLEXBOX
 
-- ADVANCED CONCEPTS - SELECTORS, ANIMATORS, & MORE
+> ADVANCED CONCEPTS - SELECTORS, ANIMATORS, & MORE
 
-- CSS GRID
+- Targeted Selectors
+- nth-Child, before & after Pseudo Selectors
+- Box, Text Shadows
+- CSS Variables
+- Keyframe Animation
+- Transitions
+- Transform
+
+> CSS GRID
+
+> Sass
