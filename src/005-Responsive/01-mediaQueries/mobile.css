@@ -1,0 +1,8 @@
+/* Add to HTML <head> AFTER main style sheet */
+/* Only loads if screen is 768 or less */
+/*  <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css" /> */
+
+body {
+    /* overwrites backgrounds in main.css for responsive */
+    background: yellow;
+}
