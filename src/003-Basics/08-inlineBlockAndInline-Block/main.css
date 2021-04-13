@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Change Block Level Elements to Inline */
+
+li {
+    /* All Items on Same Line */
+    display: inline;
+}
+
+li a {
+    padding-right: 20px;
+}
+
+/* Make an Inline Element Block */
+/* can't do margin auto on an inline element */
+
+img {
+    display: block;
+    margin: auto;
+}
+
+/* Display Block Items Horizontally */
+
+.box {
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 32.8%;
+    /* width: 110px; */
+    display: inline-block;
+}
