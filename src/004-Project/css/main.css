@@ -24,6 +24,8 @@ p {
     margin: 10px 0;
 }
 
+/* *** INDEX.HTML *** */
+
 /* Utility Classes */ 
 
 .container {
@@ -72,8 +74,16 @@ p {
 }
 
 .bg-primary {
-    background: #333;
-    color: #f7c08a;
+    background: #f7c08a;;
+    color: #333;
+}
+
+.py-1 {padding: 10px 0;}
+.py-2 {padding: 20px 0;}
+.py-3 {padding: 30px 0;}
+
+.l-heading {
+    font-size: 40px;
 }
 
 /* Navbar */
@@ -112,6 +122,10 @@ p {
 #navbar ul li a:hover, .current{
     background: #444;
     color: #f7c08a;
+}
+
+.clr {
+    clear: both;
 }
 
 /* Showcase */
@@ -169,3 +183,72 @@ p {
 }
 
 /* Features */
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 20px;
+}
+
+/* *** ABOUT.HTML *** */
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#testimonials {
+    height: 600px;
+    background-image: url('../images/alts/mtns.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+#testimonials h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
