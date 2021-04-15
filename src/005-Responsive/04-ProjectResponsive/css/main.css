@@ -84,6 +84,7 @@ p {
 
 .l-heading {
     font-size: 40px;
+    line-height: 1.2;
 }
 
 /* Navbar */
@@ -104,7 +105,7 @@ header {
     color: white;
 }
 
-#navbar h1 {
+#navbar .logo {
     float: left;
     padding-top: 20px;
 }
@@ -114,7 +115,7 @@ header {
     float: right;
 }
 
-#navbar li {
+#navbar ul li {
     float: left;
 }
 
@@ -162,7 +163,7 @@ header {
 /* HomeInfo */
 
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img{
@@ -230,7 +231,7 @@ header {
 }
 
 #testimonials {
-    height: 600px;
+    height: 100%;
     background-image: url('../images/alts/mtns.jpg');
     background-position: center;
     background-size: cover;
