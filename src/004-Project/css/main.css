@@ -88,6 +88,11 @@ p {
 
 /* Navbar */
 
+header {
+    position: sticky;
+    top: 0px;
+}
+
 #navbar {
     background: #333;
     color: white;

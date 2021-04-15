@@ -1,0 +1,16 @@
+/* rem - Font size of the root element <html> */
+
+/* Good practice - set html font-size to 10 */
+/* Or, 62.5%  = 10px */
+/* 2.3rem = 23px, 1.7rem = 17 */
+/* easier to calculate */
+
+#box-2 h3 {
+    font-size: 2rem; /*32px*/
+}
+
+#box-2 p {
+    font-size: 1.6rem; /*25.6px*/
+    /*line-height based on root element, unlike em */
+    line-height: 1.7rem; /*27.2*/ 
+}
