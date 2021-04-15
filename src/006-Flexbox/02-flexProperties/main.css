@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.item {
+    background: #f4f4f4;
+    border: #ccc solid 2px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1 0 200px; /* grow shrink basis */
+}
+
+/* 'flex' property implements all three */
+/* 
+flex-shrink
+flex-grow
+flex-basis
+*/
+
+.nItem {
+    background: #aaa;
+    border: #eee solid 2px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 155px;
+}
+
+.nItem-1{
+    /*no shrink, stays at 155px*/
+    flex-shrink: 0;
+  }
+  
+  .nItem-2{
+      /* fills remaining space of container */
+      flex-grow: 1;
+  }
+  
+  .nItem-3{
+    /* bigger than nItem2 */
+    flex-grow: 2; 
+  }
+
+  .nItem-4{
+    /* like setting a width */
+    flex-basis: 1; 
+  }
