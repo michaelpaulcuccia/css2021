@@ -79,6 +79,7 @@ img {
 .hero {
     background: url('../image_resources/home/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
+    /* Position Needed for Overlay */
     position: relative;
     color: #fff;
 }
@@ -101,4 +102,21 @@ img {
     font-size: 23px;
     max-width: 600px;
     margin: 20px 0 30px; /*top L/R bottom */
+}
+
+/*overlay*/
+.hero::before {
+    /* required property, make an empty string */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* move items in front of overlay*/
+.hero * {
+    z-index: 10;
 }
