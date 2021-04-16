@@ -73,3 +73,32 @@ img {
 .navbar ul {
     display: flex;
 }
+
+/* Header */
+
+.hero {
+    background: url('../image_resources/home/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+    align-items: center; /*-1 horizontal */
+    justify-content: center; /*-2 vertical */
+    height: 100%; /*-3 brings it to center of container by setting height*/
+}
+
+.hero .content h1 {
+    font-size: 55px;
+}
+
+.hero .content p {
+    font-size: 23px;
+    max-width: 600px;
+    margin: 20px 0 30px; /*top L/R bottom */
+}
