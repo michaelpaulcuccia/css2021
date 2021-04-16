@@ -144,5 +144,15 @@ img {
     margin-bottom: 15px;
 }
 
-/* About: Solutions */
+/* Solutions */
+/* see utilities.css */
 
+/* Cases */
+/* see utilities.css */
+
+.cases img:hover {
+    opacity: 0.7;
+}
+
+/* Blog */
+/* see utilities.css */
