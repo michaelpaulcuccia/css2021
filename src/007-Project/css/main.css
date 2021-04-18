@@ -224,3 +224,46 @@ img {
     margin-right: 30px;
 
 }
+
+/* Mobile */
+/* screens smaller than 768 */
+@media(max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        /* original, flex-direction: row */
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    /* About Icons */
+    /* Stacks Instead of Columns */
+    .flex-items {
+        flex-direction: column;
+    }
+
+    /* Solutions */
+    /* Stacks Instead of Columns */
+    .flex-columns .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    /* Cases */
+    /* Stacks */
+    .flex-grid .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    /* Team */ 
+    /* Reduce Sizes */
+    .team .img {
+        width: 70%;
+    }
+}
