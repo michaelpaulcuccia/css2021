@@ -9,6 +9,7 @@
     margin: 0;
 }
 
+/* ******************** */
 /* Base Styles */
 
 body {
@@ -39,6 +40,9 @@ p {
 img {
     width: 100%;
 }
+
+/* ******************** */
+/* Index.html */
 
 /* Navbar */
 
@@ -266,4 +270,44 @@ img {
     .team .img {
         width: 70%;
     }
+
+}
+
+/* ******************** */
+/* Blog */
+
+.hero.blog {
+    background: url('../image_resources/home/blog.jpg') no-repeat center center/cover;
+    height: 35vh;
+}
+
+.blog-header {
+    display: block;
+    margin: 0 auto 50px;
+}
+
+/* ******************** */
+/* Post */
+
+.post {
+    padding: 50px 30px;
+}
+
+.post h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: #ccc solid 1px;
+}
+
+.post .meta {
+    margin-bottom: 30px;
+}
+
+.post img {
+    width: 300px;
+    border-radius: 50%;
+    /* centers without flexbox */
+    display: block;
+    margin: 0 auto 30px;
 }
