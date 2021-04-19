@@ -1,0 +1,27 @@
+body {
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    background: #fff;
+    width: 100px;
+    height: 100px;
+
+    /* transition-delay: 1s; */
+
+    /* transition-property: background;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out; */
+    /* shorthand */
+    transition: background, border-radius 2s ease-in-out;
+}
+
+.box:hover {
+    background: red;
+    border-radius: 50%;
+}
+

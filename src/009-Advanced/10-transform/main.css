@@ -1,0 +1,28 @@
+body {
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    background: #fff;
+    width: 300px;
+    height: 300px;
+
+    /* transform: rotate(25deg); */
+    /* transform: skew(25deg); */
+    /* transform: scale(2); */
+    transition: all 2s ease-in-out;
+}
+
+.box:hover {
+    /* transform: rotate(180deg); */
+    /* transform: translateY(100px); */
+    /* transform: translateX(100px); */
+    /* X and Y */
+    /* transform: translate(100px, 100px); */
+    /* X and Y, and Z axis */
+    transform: translate3d(100px, 100px, 100px);
+}
