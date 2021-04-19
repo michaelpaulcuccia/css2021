@@ -1,0 +1,41 @@
+body {
+    background: #333;
+}
+
+.box {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    /* 5 seconds, stays where it ends, ease */
+    animation: animate1 8s forwards ease-in-out;
+    
+}
+
+/* Percentage equals timeline */
+@keyframes animate1 {
+    25% {
+        top: 0;
+        left: 300px;
+        border-radius: 10%;
+    }
+    50% {
+        top: 300px;
+        left: 300px;
+        border-radius: 30%;
+    }
+    75% {
+        top: 300px;
+        left: 0px;
+        border-radius: 50%;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        background-color: #333;
+        border-radius: 50%;
+    }
+}
