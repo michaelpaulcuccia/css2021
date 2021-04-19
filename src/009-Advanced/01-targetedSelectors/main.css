@@ -1,0 +1,29 @@
+/* every paragraph in a div */
+/* div p {
+    background: #ddd;
+} */
+
+/* p that is direct child of div */
+/* div > p {
+    background: gold;
+} */
+
+/* Directly After - NOT CHILD */
+/* div + p {
+    background: #333;
+    color: #fff;
+} */
+
+/* By Attribute */
+/* a[target='_blank']{ */
+a[target] {
+    background: #ff0000;
+    color: #fff;
+}
+
+/* Specific Attribute Values */
+input[type='text'], 
+input[type='email'] {
+    width: 100%;
+    margin-bottom: 5px;
+}

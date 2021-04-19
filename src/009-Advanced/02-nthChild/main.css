@@ -1,0 +1,39 @@
+li {
+    padding: .25rem;
+    margin: .25rem;
+    list-style: none;
+}
+
+/* First Child */
+li:first-child {
+    background: red;
+}
+
+/* Last Child */
+li:last-child {
+    background: green;
+}
+
+/* *** nth *** */
+
+/* Position 3 */
+li:nth-child(3) {
+    background: purple !important;
+}
+
+/* NOTE : '!important' will preserve styling */
+
+/* every 3 */
+li:nth-child(3n+0) {
+    background: orange;
+}
+
+/* every 3, after 7 */
+li:nth-child(3n+7) {
+    background: yellow;
+}
+
+/* even */
+li:nth-child(even){
+    background: tomato;
+}
