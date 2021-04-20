@@ -1,0 +1,26 @@
+.grid {
+    display: grid;
+    /* 4 column grid */
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 1rem;
+}
+
+/* change to 2 columns Tablet */
+@media (max-width: 768px) {
+    .grid {
+        display: grid;
+        /* 2 column grid */
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+}
+
+/* stack at Mobile */
+@media (max-width: 500px) {
+    .grid {
+        display: grid;
+        /* stack */
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+}
