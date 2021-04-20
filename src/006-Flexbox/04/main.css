@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Ensures that all children are equal width */
+.even-columns {
+    display: flex;
+}
+.even-columns > * {
+    flex-basis: 100%;
+}
+
+
+.col {
+    background: #f4f4f4;
+    border: #ccc solid 2px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+}
+
+/* ******************************************** */
+
+/* grid style layout that doesn't require media queries */
+/* widths will vary */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid > * {
+    flex: 1 1 10em;
+}
+
+.grid-col {
+    background: #333;
+    color: #eee;
+    border: #ccc solid 2px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 500px;
+}
