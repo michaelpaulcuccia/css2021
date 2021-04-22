@@ -10,3 +10,39 @@ body {
     background: $light-color;
     font-family: $font-stack;
 }
+
+header {
+    background: $dark-color;
+    color: $light-color;
+    padding: 1rem;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+.section {
+    padding: 3rem;
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    //.section-a
+    &-a{
+        background: $primary-color;
+        color: #fff;
+    }
+
+    //.section-b
+    &-b {
+        background: $secondary-color;
+    }
+}
+
+a {
+    color: #333;
+    &:hover {
+        color: coral;
+    }
+}
