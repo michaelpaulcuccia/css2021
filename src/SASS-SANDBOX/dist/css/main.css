@@ -10,8 +10,8 @@ body {
 }
 
 header {
-  background: #333;
-  color: #f4f4f4;
+  background: #f4f4f4;
+  color: #000;
   padding: 1rem;
 }
 header h1 {
@@ -32,11 +32,30 @@ header h1 {
   background: skyblue;
 }
 
+/*
 a {
+    color: #333;
+    &:hover {
+        color: coral;
+    }
+}
+*/
+.btn-dark, .btn-light {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.btn-light {
+  background-color: #f4f4f4;
   color: #333;
 }
-a:hover {
-  color: coral;
+.btn-dark {
+  background-color: #333;
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
