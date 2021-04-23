@@ -68,13 +68,23 @@ a {
         @extend %btn-shared;
         background-color: $light-color;
         color: #333;
+
+        //mixin
+        &:hover {
+            @include transform(rotate(180deg));
+            background-color: darken($light-color, 10%);
+        }
     }
 
     &-dark {
         @extend %btn-shared;
         background-color: $dark-color;
         color: #fff;
+
+             //mixin
+             &:hover {
+                @include transform(rotate(-180deg));
+                background-color: lighten($dark-color, 10%);
+            }
     }
 }
-
-//functions, mixins
