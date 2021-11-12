@@ -1,0 +1,47 @@
+/* 
+https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 1000px;
+    background-color: skyblue;
+}
+
+.one, .two, .three {
+    height: 100px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    background-color: red;
+    flex-basis: 0;
+}
+
+.two {
+    background-color: yellow;
+}
+
+.three {
+    background-color: pink;
+}

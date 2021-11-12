@@ -1,0 +1,51 @@
+/* 
+https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin: 25px auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 700px;
+    background-color: skyblue;
+}
+
+.one, .two, .three {
+    height: 100px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    background-color: red;
+    flex-shrink: 3;
+}
+
+.two {
+    background-color: yellow;
+}
+
+.three {
+    background-color: pink;
+}
